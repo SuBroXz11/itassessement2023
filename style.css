@@ -1,0 +1,193 @@
+#logo{
+    height:400px;
+    margin:-154px 194px;
+}
+html {
+    scroll-behavior: smooth;
+ }
+#navibar{
+    display:flex;
+    align-items: center;
+    position: absolute;
+}
+#navibar::before{
+    content: "";
+    background-color:black;
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1 ;
+    opacity:0.6;
+
+}
+#logo img{
+    height:716px;
+    margin:-293px -542px;
+
+}
+#navibar ul{
+    display: flex;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+#navibar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navibar ul li a{
+    color:white;
+    display:block;
+    padding: 2px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navibar ul li a:hover{
+    color:black;
+    background-color: #fff;
+}
+/* section one*/
+#home{
+    display:flex;
+    flex-direction: column;
+    padding:3px 200px;
+    justify-content: center;
+    align-items: center;
+    height:747px;
+    font-family: 'Bree Serif', serif;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('gym1.jpg') no-repeat center center/cover;
+    height:100%;
+    width:100%;
+    z-index:-1 ;
+    opacity:0.9;
+}
+#home h1{
+    color:white;
+    text-align: center;
+}
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+.hone{
+    font-size: 2.9rem;
+    padding:30px;
+    font-family: 'Bree Serif', serif;
+}
+.btn{
+    padding:6px 20px;
+    border:2px solid white;
+    background-color: rgb(65 64 64);
+    color:white;
+    margin:20px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: black;
+}
+#services{
+    margin: 10px;
+    padding:2px;
+    display: flex;
+}
+#services .box{ 
+    border:2px solid black;
+    padding:34px;
+    margin:11px 75px;
+    border-radius: 100%;
+    background: #f2f2f2;
+    width:20%;
+}
+
+#services .box img{
+    border-radius: 20%; 
+   height: 138px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+#sponser{
+height:300px;
+}
+
+#sponsers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+}
+
+#sponsers img{
+    height:200px;
+}
+.sponsers{
+    padding:40px 25px;
+}
+.center{
+    text-align: center;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('back.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 12px;
+    font-size: 1.3rem;
+} 
+
+#contact-box form{
+    width: 35%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+footer{
+    background: rgb(26, 57, 71);
+    color:white;
+    padding:5px 30px;
+}
+#btn2{
+    margin:auto;
+    padding:10px 200px;
+}
+.topb{
+    position:fixed;
+    width:50px;
+    height:50px;
+    bottom:40px;
+    right:50px;
+    line-height: 50px;
+    border-radius: 14px;
+}

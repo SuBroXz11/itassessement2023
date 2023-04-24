@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta harset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Thank you!</title>
+        <link rel="stylesheet" href="submit.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div class="contents">
+                <button type="button" class="btn" onclick="openpop()">Submit</button>
+                <div class="pop" id="pop">
+                    <img src="tick.png">
+                    <h2>Thank you for reaching out!</h2>
+                    <p>Your informations has been sucessfully submitted...</p>
+                    <button type="button" onclick="closepop()">OK</button>
+                </div>
+            </div>
+            <script>
+                let pop = document.getElementById("pop");
+                function openpop(){
+                    pop.classList.add("open-pop");
+                }
+                function closepop(){
+                    pop.classList.remove("open-pop");
+                }
+            </script>
+                    <footer>
+                        <div class="center">
+                            Copyright &copy; www.Roxfitness.com All rights reserved!
+                        </div>
+                    </footer>
+</body>
