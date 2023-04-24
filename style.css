@@ -18,12 +18,10 @@ html {
     width:100%;
     z-index:-1 ;
     opacity:0.6;
-
 }
 #logo img{
     height:716px;
     margin:-293px -542px;
-
 }
 #navibar ul{
     display: flex;
